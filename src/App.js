@@ -1,56 +1,22 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
-import './App.css';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <Counter />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <span>
-          <span>Learn </span>
-          <a
-            className="App-link"
-            href="https://reactjs.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux
-          </a>
-          <span>, </span>
-          <a
-            className="App-link"
-            href="https://redux-toolkit.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Redux Toolkit
-          </a>
-          ,<span> and </span>
-          <a
-            className="App-link"
-            href="https://react-redux.js.org/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            React Redux
-          </a>
-        </span>
-      </header>
+      Samuel Green Available to Walk That sounds great. I’d be happy with that.
+      Could you send over some pictures of your dog, please? Here are a few
+      pictures. She’s a happy girl! Can you make it? She looks so happy! The
+      time we discussed works. How long shall I take her out for? 30 minute walk
+      $29 1 hour walk $49 Type a message… Simple booking Stay in touch with our
+      dog walkers through the chat interface. This makes it easy to discuss
+      arrangements and make bookings. Once the walk has been completed you can
+      rate your walker and book again all through the chat.
+      <div class="attribution">
+        Challenge by{' '}
+        <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
+          Frontend Mentor
+        </a>. Coded by <a href="#">Bryan Magalong</a>.
+      </div>
     </div>
   );
 }
