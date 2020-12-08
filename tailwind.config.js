@@ -2,25 +2,46 @@ module.exports = {
   purge: [ './src/**/*.js', './public/index.html' ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    backgroundColor: (theme) => ({
-      violet: {
-        pale: 'hsl(276, 100%, 81%)',
-        moderate: 'hsl(276, 55%, 52%)',
+    screens: {
+      '2xl': '1440px',
+      '3xl': '1536px',
+    },
+    colors: {
+      pale: {
+        violet: 'hsl(276, 100%, 81%)',
+      },
+      moderate: {
+        violet: 'hsl(276, 55%, 52%)',
+      },
+      dark: {
+        grayish: {
+          violet: 'hsl(270, 7%, 64%)',
+        },
         desaturated: {
-          dark: 'hsl(271, 15%, 43%)',
-          verydark: 'hsl(271, 36%, 24%)',
+          violet: 'hsl(271, 15%, 43%)',
+        },
+      },
+      light: {
+        grayish: {
+          violet: 'hsl(270, 20%, 96%)',
+        },
+        magenta: 'hsl(293, 100%, 63%)',
+        violet: 'hsl(264, 100%, 61%)',
+      },
+      very: {
+        dark: {
+          desaturated: {
+            violet: 'hsl(271, 36%, 24%)',
+          },
+        },
+        light: {
+          magenta: 'hsl(289, 100%, 72%)',
         },
       },
       grayish: {
         blue: 'hsl(206, 6%, 79%)',
-        light: {
-          violet: 'hsl(270, 20%, 96%)',
-        },
-        dark: {
-          violet: 'hsl(270, 7%, 64%)',
-        },
       },
-    }),
+    },
     extend: {},
   },
   variants: {
