@@ -1,3 +1,6 @@
+const plugin = require('tailwindcss/plugin');
+const divPlugin = require('./src/plugins/div-plugin');
+
 module.exports = {
   purge: [ './src/**/*.js', './public/index.html' ],
   darkMode: false, // or 'media' or 'class'
@@ -5,6 +8,9 @@ module.exports = {
     screens: {
       '2xl': '1440px',
       '3xl': '1536px',
+    },
+    decorative: {
+      height: '695px',
     },
     colors: {
       pale: {
@@ -36,6 +42,7 @@ module.exports = {
         },
         light: {
           magenta: 'hsl(289, 100%, 72%)',
+          grayish: 'hsl(300, 2%, 98%)',
         },
       },
       grayish: {
@@ -47,5 +54,5 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [],
+  plugins: [ plugin(divPlugin) ],
 };
