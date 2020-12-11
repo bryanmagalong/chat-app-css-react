@@ -9,10 +9,17 @@ module.exports = {
       '2xl': '1440px',
       '3xl': '1536px',
     },
-    decorative: {
-      height: '695px',
+    height: {
+      frame: '30rem',
+    },
+    borderWidth: {
+      frame: '10px',
+    },
+    borderRadius: {
+      frame: '2rem',
     },
     colors: {
+      white: 'hsl(0, 0%, 100%)',
       pale: {
         violet: 'hsl(276, 100%, 81%)',
       },
