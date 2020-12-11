@@ -12,7 +12,7 @@ module.exports = {
     extend: {
       height: {
         frame: '30rem',
-        mfheader: '5.750rem',
+        mfheader: '4.5rem',
       },
       borderWidth: {
         frame: '10px',
