@@ -28,8 +28,8 @@ module.exports = {
         'content-header': '0.938rem',
       },
       margin: {
-        'text-header': '3.375em',
-        'content-header': '1.313em',
+        'text-header': '3.375rem',
+        'content-header': '1.313rem',
       },
       colors: {
         pale: {
