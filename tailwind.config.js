@@ -11,7 +11,7 @@ module.exports = {
     },
     extend: {
       maxWidth: {
-        'max-w-text-header': '17.563rem',
+        'text-header': '17.563rem',
       },
       height: {
         frame: '30rem',
@@ -22,6 +22,9 @@ module.exports = {
       },
       borderRadius: {
         frame: '2rem',
+      },
+      fontSize: {
+        'title-header': '2.375em',
       },
       colors: {
         pale: {
