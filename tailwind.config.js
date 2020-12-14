@@ -10,6 +10,9 @@ module.exports = {
       '3xl': '1536px',
     },
     extend: {
+      maxWidth: {
+        'text-header': '17.563rem',
+      },
       height: {
         frame: '30rem',
         mfheader: '4.5rem',
@@ -19,6 +22,14 @@ module.exports = {
       },
       borderRadius: {
         frame: '2rem',
+      },
+      fontSize: {
+        'title-header': '2.375em',
+        'content-header': '0.938rem',
+      },
+      margin: {
+        'text-header': '3.375rem',
+        'content-header': '1.313rem',
       },
       colors: {
         pale: {
