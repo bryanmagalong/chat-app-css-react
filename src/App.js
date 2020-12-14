@@ -3,6 +3,7 @@ import ContentWrapper from './components/ContentWrapper';
 import MobilePreview from './components/MobilePreview';
 import TextHeader from './components/TextHeader';
 import TitleHeader from './components/TextHeader/TitleHeader';
+import ContentHeader from './components/TextHeader/ContentHeader';
 
 const App = () => (
   <div className="container relative min-h-screen  overflow-hidden bg-very-light-grayish">
@@ -13,6 +14,12 @@ const App = () => (
       <MobilePreview />
       <TextHeader>
         <TitleHeader>Simple booking</TitleHeader>
+        <ContentHeader>
+          Stay in touch with our dog walkers through the chat interface. This
+          makes it easy to discuss arrangements and make bookings. Once the walk
+          has been completed you can rate your walker and book again all through
+          the chat.
+        </ContentHeader>
       </TextHeader>
     </ContentWrapper>
   </div>
