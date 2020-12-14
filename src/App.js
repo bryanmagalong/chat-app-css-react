@@ -2,6 +2,7 @@ import React from 'react';
 import ContentWrapper from './components/ContentWrapper';
 import MobilePreview from './components/MobilePreview';
 import TextHeader from './components/TextHeader';
+import TitleHeader from './components/TextHeader/TitleHeader';
 
 const App = () => (
   <div className="container relative min-h-screen  overflow-hidden bg-very-light-grayish">
@@ -10,7 +11,9 @@ const App = () => (
     <ContentWrapper>
       {/* <div className="relative decorative mx-auto bg-pale-violet">Hello</div> */}
       <MobilePreview />
-      <TextHeader>Text Header</TextHeader>
+      <TextHeader>
+        <TitleHeader>Simple booking</TitleHeader>
+      </TextHeader>
     </ContentWrapper>
   </div>
 );
