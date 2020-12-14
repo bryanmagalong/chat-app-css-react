@@ -25,6 +25,11 @@ module.exports = {
       },
       fontSize: {
         'title-header': '2.375em',
+        'content-header': '0.938rem',
+      },
+      margin: {
+        'text-header': '3.375em',
+        'content-header': '1.313em',
       },
       colors: {
         pale: {
