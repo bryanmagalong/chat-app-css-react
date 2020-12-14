@@ -10,6 +10,9 @@ module.exports = {
       '3xl': '1536px',
     },
     extend: {
+      maxWidth: {
+        'max-w-text-header': '17.563rem',
+      },
       height: {
         frame: '30rem',
         mfheader: '4.5rem',
