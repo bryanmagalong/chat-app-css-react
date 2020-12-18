@@ -6,7 +6,7 @@ import TitleHeader from './components/TextHeader/TitleHeader';
 import ContentHeader from './components/TextHeader/ContentHeader';
 
 const App = () => (
-  <div className="container relative min-h-screen  overflow-hidden bg-very-light-grayish">
+  <div className="container relative lg:flex min-h-screen lg:justify-center lg:items-center overflow-hidden bg-very-light-grayish">
     <div className="absolute -left-36 -top-60 decorative bg-gradient-to-t from-light-violet to-light-magenta" />
     <div className="absolute decorative bg-light-grayish-violet -right-36 -bottom-80" />
     <ContentWrapper>
