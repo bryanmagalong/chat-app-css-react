@@ -6,10 +6,17 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     screens: {
+      lg: '1024px',
       '2xl': '1440px',
       '3xl': '1536px',
     },
     extend: {
+      gap: {
+        content: '10.313em',
+      },
+      minWidth: {
+        'text-header-lg': '24.938rem',
+      },
       maxWidth: {
         'text-header': '17.563rem',
       },
