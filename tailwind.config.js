@@ -1,5 +1,4 @@
 const plugin = require('tailwindcss/plugin');
-const divPlugin = require('./src/plugins/div-plugin');
 
 module.exports = {
   purge: [ './src/**/*.js', './public/index.html' ],
@@ -87,5 +86,4 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [ plugin(divPlugin) ],
 };
