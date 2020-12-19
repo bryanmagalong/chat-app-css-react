@@ -4,13 +4,14 @@ import MobilePreview from './components/MobilePreview';
 import TextHeader from './components/TextHeader';
 import TitleHeader from './components/TextHeader/TitleHeader';
 import ContentHeader from './components/TextHeader/ContentHeader';
+import DecorativeRight from './components/DecorativeRight';
+import DecorativeLeft from './components/DecorativeLeft';
 
 const App = () => (
-  <div className="container relative min-h-screen  overflow-hidden bg-very-light-grayish">
-    <div className="absolute -left-36 -top-60 decorative bg-gradient-to-t from-light-violet to-light-magenta" />
-    <div className="absolute decorative bg-light-grayish-violet -right-36 -bottom-80" />
+  <div className="container relative min-w-full lg:flex min-h-screen lg:justify-center lg:items-center overflow-hidden bg-very-light-grayish">
+    <DecorativeLeft />
+    <DecorativeRight />
     <ContentWrapper>
-      {/* <div className="relative decorative mx-auto bg-pale-violet">Hello</div> */}
       <MobilePreview />
       <TextHeader>
         <TitleHeader>Simple booking</TitleHeader>

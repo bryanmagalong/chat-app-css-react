@@ -1,27 +1,38 @@
-const plugin = require('tailwindcss/plugin');
-const divPlugin = require('./src/plugins/div-plugin');
-
 module.exports = {
   purge: [ './src/**/*.js', './public/index.html' ],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    screens: {
-      '2xl': '1440px',
-      '3xl': '1536px',
-    },
     extend: {
+      screens: {
+        '2xl': '1440px',
+        '3xl': '1536px',
+      },
+      spacing: {
+        // content gap
+        content: '10.313em',
+        // height
+        frame: '30rem',
+        mfheader: '4.5rem', // mobile frame header
+        'decorative-y': '43.438rem',
+        'decorative-y-lg': '63.625rem',
+        // width
+        'decorative-x': '20.438rem',
+        'decorative-x-lg': '30.563rem',
+        // position placement
+        'lg-x': '30rem',
+      },
+      minWidth: {
+        'text-header-lg': '24.938rem',
+      },
       maxWidth: {
         'text-header': '17.563rem',
-      },
-      height: {
-        frame: '30rem',
-        mfheader: '4.5rem',
       },
       borderWidth: {
         frame: '10px',
       },
       borderRadius: {
         frame: '2rem',
+        decorative: '20.125em',
       },
       fontSize: {
         'title-header': '2.375em',
@@ -73,5 +84,4 @@ module.exports = {
   variants: {
     extend: {},
   },
-  plugins: [ plugin(divPlugin) ],
 };

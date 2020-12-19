@@ -1,9 +1,9 @@
 import React from 'react';
 
 const TextHeader = ({ children }) => (
-  <div className="relative container mt-text-header w-72 mx-auto max-w-text-header text-title-header">
+  <section className="relative container mt-text-header  w-72 mx-auto lg:m-0 lg:self-center max-w-text-header lg:min-w-text-header-lg text-title-header">
     {children}
-  </div>
+  </section>
 );
 
 export default TextHeader;
