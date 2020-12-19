@@ -12,7 +12,6 @@ const App = () => (
     <DecorativeLeft />
     <DecorativeRight />
     <ContentWrapper>
-      {/* <div className="relative decorative mx-auto bg-pale-violet">Hello</div> */}
       <MobilePreview />
       <TextHeader>
         <TitleHeader>Simple booking</TitleHeader>
