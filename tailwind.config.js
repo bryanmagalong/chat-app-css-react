@@ -37,6 +37,8 @@ module.exports = {
       fontSize: {
         'title-header': '2.375em',
         'content-header': '0.938rem',
+        'avatar-name': '0.7rem',
+        'avatar-status': '0.45rem',
       },
       margin: {
         'text-header': '3.375rem',
