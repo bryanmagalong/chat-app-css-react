@@ -24,7 +24,7 @@ module.exports = {
         // position placement
         'lg-x': '30rem',
 
-        'submit-button': '0.167rem',
+        'submit-button': '0.3rem',
       },
       minWidth: {
         'text-header-lg': '24.938rem',
