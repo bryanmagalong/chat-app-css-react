@@ -5,6 +5,7 @@ import MobileHeader from '../../components/MobileHeader';
 import ChatSection from './ChatSection';
 import SubmitInput from './SubmitInput';
 import Message from './Message';
+import WalkCheck from './WalkCheck';
 
 const MobilePreview = () => (
   <MobileFrame>
@@ -24,6 +25,8 @@ const MobilePreview = () => (
         She looks so happy! The time we discussed works. How long shall i take
         her out for?
       </Message>
+      <WalkCheck time="30 minutes" price="29" />
+      <WalkCheck time="1 hour" price="49" />
     </ChatSection>
     <SubmitInput />
   </MobileFrame>
