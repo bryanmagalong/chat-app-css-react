@@ -23,12 +23,14 @@ module.exports = {
         'decorative-x-lg': '30.563rem',
         'submit-x': '14.250rem',
         'message-x': '8rem',
+        'walkcheck-x': '9.375rem',
         // position placement
         'lg-x': '30rem',
 
         //padding
         'message-padding-y': '0.313rem',
         'message-padding-x': '0.438rem',
+        'walkcheck-padding-x': '0.938rem',
       },
       minWidth: {
         'text-header-lg': '24.938rem',
@@ -53,7 +55,8 @@ module.exports = {
         'avatar-name': '0.7rem',
         'avatar-status': '0.45rem',
         submit: '0.563rem',
-        message: '0.438em',
+        message: '0.438rem',
+        price: '0.625rem',
       },
       margin: {
         'text-header': '3.375rem',
@@ -61,6 +64,7 @@ module.exports = {
         placeholder: '1.188rem',
         'message-bottom': '0.438rem',
         'submit-button': '0.3rem',
+        'walkcheck-time': '0.688em',
       },
       colors: {
         pale: {
