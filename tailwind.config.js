@@ -15,17 +15,30 @@ module.exports = {
         mfheader: '4.5rem', // mobile frame header
         'decorative-y': '43.438rem',
         'decorative-y-lg': '63.625rem',
+        'submit-y': '2.125rem',
+        'message-y': '1.938rem',
         // width
+        'frame-x': '16.625rem',
         'decorative-x': '20.438rem',
         'decorative-x-lg': '30.563rem',
+        'submit-x': '14.250rem',
+        'message-x': '8rem',
+        'walkcheck-x': '9.375rem',
+        picture: '2.188rem',
         // position placement
         'lg-x': '30rem',
+
+        //padding
+        'message-padding-y': '0.313rem',
+        'message-padding-x': '0.438rem',
+        'walkcheck-padding-x': '0.938rem',
       },
       minWidth: {
         'text-header-lg': '24.938rem',
       },
       maxWidth: {
         'text-header': '17.563rem',
+        message: '8rem',
       },
       borderWidth: {
         frame: '10px',
@@ -33,14 +46,27 @@ module.exports = {
       borderRadius: {
         frame: '2rem',
         decorative: '20.125em',
+        submit: '1.063rem',
+        'message-left': '0.563rem 0.563rem 0.563rem 0.125rem',
+        'message-right': '0.563rem 0.563rem 0.125rem 0.563rem',
+        picture: '0.563rem',
       },
       fontSize: {
         'title-header': '2.375em',
         'content-header': '0.938rem',
+        'avatar-name': '0.7rem',
+        'avatar-status': '0.45rem',
+        submit: '0.563rem',
+        message: '0.438rem',
+        price: '0.625rem',
       },
       margin: {
         'text-header': '3.375rem',
         'content-header': '1.313rem',
+        placeholder: '1.188rem',
+        'message-bottom': '0.438rem',
+        'submit-button': '0.3rem',
+        'walkcheck-time': '0.688em',
       },
       colors: {
         pale: {
@@ -73,6 +99,7 @@ module.exports = {
           light: {
             magenta: 'hsl(289, 100%, 72%)',
             grayish: 'hsl(300, 2%, 98%)',
+            violet: '	hsl(277, 50%, 93%)',
           },
         },
         grayish: {
