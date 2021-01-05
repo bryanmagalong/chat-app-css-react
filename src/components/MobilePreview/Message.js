@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 const Message = (props) => (
   <div
@@ -11,4 +12,7 @@ const Message = (props) => (
   </div>
 );
 
+Message.propTypes = {
+  position: PropTypes.oneOf([ 'left', 'right' ]),
+};
 export default Message;
