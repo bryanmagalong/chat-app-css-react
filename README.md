@@ -1,7 +1,6 @@
 # Frontend Mentor - Chat app CSS illustration
-
-![Design preview for the Chat app CSS illustration coding challenge](./public/design/desktop-preview.jpg)
-
 ## Welcome! 👋
 
-Challenge project: https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY, using React and Tailwind CSS.
+Challenge project picked from https://www.frontendmentor.io/challenges/chat-app-css-illustration-O5auMkFqY. The project is supposed to be built only in HTML and CSS but i wanted to keep practicing with React and it was an opportunity to use TailwindCSS for the first time.
+
+![Design preview for the Chat app CSS illustration coding challenge](./public/design/desktop-preview.jpg)
