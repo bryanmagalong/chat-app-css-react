@@ -6,6 +6,7 @@ import ChatSection from './ChatSection';
 import SubmitInput from './SubmitInput';
 import Message from './Message';
 import WalkCheck from './WalkCheck';
+import SharedPictures from './SharedPictures';
 
 const MobilePreview = () => (
   <MobileFrame>
@@ -17,6 +18,7 @@ const MobilePreview = () => (
       <Message position="left">
         Could you send over some pictures of your dog, please?
       </Message>
+      <SharedPictures />
       <Message position="right">
         Here a few pictures. She's a happy girl!
       </Message>
