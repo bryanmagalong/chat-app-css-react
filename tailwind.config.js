@@ -24,6 +24,7 @@ module.exports = {
         'submit-x': '14.250rem',
         'message-x': '8rem',
         'walkcheck-x': '9.375rem',
+        picture: '2.188rem',
         // position placement
         'lg-x': '30rem',
 
@@ -48,6 +49,7 @@ module.exports = {
         submit: '1.063rem',
         'message-left': '0.563rem 0.563rem 0.563rem 0.125rem',
         'message-right': '0.563rem 0.563rem 0.125rem 0.563rem',
+        picture: '0.563rem',
       },
       fontSize: {
         'title-header': '2.375em',
